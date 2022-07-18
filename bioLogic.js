@@ -1,5 +1,5 @@
 // set json location to constant
-const samplesJson = "./samples.json";
+const samplesJson = "samples.json";
 
 // read data from json
 d3.json(samplesJson).then(function(Jsondata) {
